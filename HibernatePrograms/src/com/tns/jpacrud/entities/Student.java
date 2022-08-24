@@ -8,16 +8,16 @@ import javax.persistence.Table;
 @Table(name="student")
 public class Student {
 	@Id
-	private int studentid;
+	private int student_id;
 	
 	private String name;
 
 	public int getStudent_id() {
-		return studentid;
+		return student_id;
 	}
 
 	public void setStudent_id(int student_id) {
-		this.studentid = student_id;
+		this.student_id = student_id;
 	}
 
 	public String getName() {
@@ -33,13 +33,13 @@ public class Student {
 	}
 
 	public Student(int student_id, String name) {
-		this.studentid = student_id;
+		this.student_id = student_id;
 		this.name = name;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [studentid=" + studentid + ", name=" + name + "]";
+		return "Student [student_id=" + student_id + ", name=" + name + "]";
 	}
 	
 }
