@@ -22,9 +22,9 @@ public class InheritanceTest {
 		
 		//create one manager
 		Manager manager3 = new Manager();
-		manager3.setName("Sam");
+		manager3.setName("Abhishek");
 		manager3.setSalary(9000);
-		manager3.setDepartmentName("Teja");
+		manager3.setDepartmentName("IT");
 		em.persist(manager3);
 			
 		em.getTransaction().commit();
